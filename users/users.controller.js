@@ -6,8 +6,6 @@ const Role = require('_helpers/role');
 const userService = require('./user.service');
 
 
-
-
 router.get('/', getAll);
 router.get('/:id', getById);
 router.post('/', createSchema, create);
